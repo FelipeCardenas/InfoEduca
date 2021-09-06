@@ -8,8 +8,6 @@
   <form method="POST" action="{{route('eventos.store')}}" enctype="multipart/form-data">
           @csrf
 
-
-
         <!--Grupo aqui-->
         <div class="row form-group ml-2"> 
           <h4> <b>Nombre Actividad: </b></h4>
